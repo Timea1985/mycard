@@ -16,6 +16,10 @@ img {
     padding: 30px;
     padding-right: 200px;
 }
+img:hover {
+  filter: grayscale(20%);
+  transform: scale(1.1);
+}
 .primary {
    display: flex;
   flex-flow: row wrap;
@@ -42,4 +46,30 @@ h1, h2, p {
 }
 h1 {
     font-style: italic;
+}
+.top-skills, .experience, .interests {
+   font-size: 1.2rem;
+    font-weight: 500;
+}
+.top-skills {
+    margin-top: 80px;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+  
+}
+.portofolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;  
 }
